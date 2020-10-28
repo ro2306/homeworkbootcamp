@@ -28,20 +28,40 @@ const calcAge = function(x, y){
         const number=isEven(10)
         console.log(number)
 
-        //Exercise 4
+       //Exercise 4
 
-        const printEven = function(arr){
+    const printEven = function(arr){
             for (let i=0; i<arr.length; i++) {
 
-           let  tf=isEven(numbers)
+           let  tf=isEven(arr[i])
              if (tf==false)
-               return arr[i]
+             console.log(arr[i])
+
 
            }
         }
            const numbers = [1, 5, 3,10,15]
            const nums = printEven(numbers)
+           
+            //Exercise 5
+           
+             check = function (array, num) {
+                for(let number of array) {
+                  if(number === num) {
+                    return true
+                  }
+             } 
+                return false
+              }
+                 
+              const n = [20,30, 50,10]
+                 
+              console.log(check(n, 50))
+            
+          
+    
 
-           console.log(nums)
+
+          
 
     
